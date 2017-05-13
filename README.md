@@ -1,7 +1,5 @@
 ## web-pages
-### Each branch is a different small web page.
-
-#### Current web pages:
+### Each repository branch is a different web page.
 #####
 ##### Memory game
 ##### Local weather app
