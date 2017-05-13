@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- external links -->
+
+	<!-- font awesome ! -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+	
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+
+	<!-- jquerry 3 'not everything works with this one'
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>	-->
+	<!-- jquerry 2 -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>	
+	<!-- jquerry 1 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 	-->
+
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto+Condensed" rel="stylesheet">
+	
+	<!-- links to files -->
+	<script src="./code.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+	<body>
+		<div class="container">
+			<h1>Wikipedia Viewer</h1>
+			<a href="https://en.wikipedia.org/wiki/Special:Random" target="blank">
+				<i class="fa fa-random" aria-hidden="true"></i>
+				</a></p>
+			<i class="fa fa-search" aria-hidden="true"></i></p>
+			<div class="inputBox">
+				<input type="text" class="from-control" id="searchField"/>
+				<button id="searchWiki" type="button" class="btn btn-primary">search</button>
+			</div>
+			<div class="theBox">
+				<ul id="output"></ul>
+			</div>
+		</div>
+	</body>
+</html>
