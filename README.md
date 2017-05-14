@@ -1,8 +1,8 @@
 ## web-pages
 ### Each repository branch is a different web page.
 #####
-##### Memory game
-##### Local weather app
-##### Wikipedia viewer
-##### Random quote
-##### Stopwatch
+##### Memory game https://github.com/tzchrzanowski/web-pages/tree/memory-game
+##### Local weather https://github.com/tzchrzanowski/web-pages/tree/local-weather
+##### Wikipedia viewer https://github.com/tzchrzanowski/web-pages/tree/wikipedia-viewer
+##### Random quote https://github.com/tzchrzanowski/web-pages/tree/random-quote
+##### Stopwatch https://github.com/tzchrzanowski/web-pages/tree/stopwatch
