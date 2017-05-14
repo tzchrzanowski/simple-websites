@@ -1,5 +1,5 @@
 ## web-pages
-### Each repository branch is a different web page.
+### Each repository branch is a different web page project.
 #####
 ##### Memory game | https://github.com/tzchrzanowski/web-pages/tree/memory-game
 ##### Local weather |  https://github.com/tzchrzanowski/web-pages/tree/local-weather
