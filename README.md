@@ -1,7 +1,3 @@
-## web-pages
-### Each repository branch is a different web page.
-#####
-##### Memory game
-##### Local weather app
-##### Wikipedia viewer
-##### Random quote
+### Stopwatch
+#### link to the page on codepen.io
+#### https://codepen.io/tzchrzanowski/full/QvrXRr/
