@@ -5,3 +5,4 @@
 ##### Local weather app
 ##### Wikipedia viewer
 ##### Random quote
+##### Stopwatch
