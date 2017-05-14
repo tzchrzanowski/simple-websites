@@ -1,0 +1,43 @@
+body{
+		/*
+	font-family: 'Roboto Condensed', sans-serif;	
+	*/
+  text-align: center;
+	font-family: 'Press Start 2P', cursive;
+	background-image:url("http://longwallpapers.com/Desktop-Wallpaper/retro-wallpapers-for-iphone-For-Desktop-Wallpaper.jpg");
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+}
+.title{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.listElement{
+	background-color: rgba(0, 0, 0, 0.2);;
+	/*opacity: 0.2;*/
+	max-width:80%;
+	margin-right: auto;
+	margin-left:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding:15px;
+}
+
+.headTitle{
+	font-size:30px;
+  padding-top: 25px;
+	padding-bottom:10px;
+}
+
+.theBox{
+	background-color: rgba(0, 0, 0, 0.2);;
+	/*opacity: 0.2;*/
+	max-width:80%;
+	margin-right: auto;
+	margin-left:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding:15px;
+  color: white;
+}

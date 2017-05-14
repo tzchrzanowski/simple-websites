@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- external links -->
+
+	<!-- font awesome ! -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+	
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+
+	<!-- jquerry 3 'not everything works with this one'
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>	-->
+	<!-- jquerry 2 -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>	
+	<!-- jquerry 1 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 	-->
+
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto+Condensed" rel="stylesheet">
+	
+	<!-- links to files -->
+	<script src="./code.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+	<body>
+		<p class="headTitle">Stopwatch</p>
+		<p>
+			<button id="startStop">Start/Stop</button>
+			<button id="reset">Reset</button>
+			<button id="recordTime">Record Time</button>
+		</p>
+		<div class="theBox">
+			<h3 id="timer">00:00:00</h3>	
+			<h4 id="listHeader">Past times</h3>
+			<ul id="output"></ul>
+		</div>
+		<p> Press 's' to stop/start,</p><p> Press 't' record time,</p><p> Press 'r' to reset timer</p>
+	</body>
+</html>
