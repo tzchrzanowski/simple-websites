@@ -1,0 +1,153 @@
+
+.diagram{
+	/*position: relative;*/
+  position:relative;
+  background-color:white;
+  width:100%;
+  height:200px;
+  margin:40px 0px 20px 0px;
+}
+
+/*finance middle block*/
+.secondLine{
+	position: relative;
+	height:100px;
+}
+.financesleftContainer{
+	float:left;
+	width:70%;
+	height:120px;
+	position:relative;
+}
+/*finance left*/
+.financeCaptionBlock{
+	position:relative;
+	height: 70px;
+}
+.financeCaption{	
+	float:left;
+	margin-top: 15px;
+	font-size: 30px;
+}
+/*money caption*/
+.moneyContainer{
+	position: relative;
+}
+.moneyBlock{
+	width:150px;
+	float:left;
+	font-size:20px;
+}
+.moneyBlock2{
+	width:150px;
+	float:left;
+	display:inline-block;
+	margin-left:5px;
+	font-size:20px;
+}
+.moneyBlock3{
+	width:180px;
+	float:left;
+	display:inline-block;
+	margin-left:5px;
+	font-size:20px;
+}
+/*---------------------------------------------*/
+
+/*buttons right*/
+.buttonsRightContainer{
+	float:right;
+	max-width:250px;
+	height:120px;
+	position:relative;
+}
+.rightUpContainer{
+	margin-top:30px;
+	position :relative;
+	height: 50px;
+}
+.rightDownContainer{
+	margin-top:10px;
+	position:relative;
+	height:50px;
+}
+
+.bankButtonContainer{
+	display:inline-block;
+	margin-left:11px;
+}
+.paymentButtonContainer{
+	display:inline-block;
+	margin-left:5px;
+}
+
+.btn-primary{
+	padding:2px 5px 2px 5px;
+	background-color:#13bdd2;
+	border-color:#13bdd2;
+	width:65px;
+	height:25px;
+}
+.btn {
+	border-radius:2px;
+}
+/*---------------------------------------------*/
+/*swtich button right side*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 65px;
+  height: 25px;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #13bdd2;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 17px;
+  width: 27px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: white;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px white;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(29px);
+  -ms-transform: translateX(29px);
+  transform: translateX(29px);
+  background-color:#07B209;
+
+}
+
+.offCaption{
+	position: absolute;
+	top:-5px;
+	right:37px;
+}
+.onCaption{
+	position: absolute;
+	top:-5px;
+	right:10px;
+}
+/*--------------------------------------------*/

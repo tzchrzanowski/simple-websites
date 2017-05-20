@@ -1,0 +1,299 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- external links -->
+
+	<!-- font awesome ! -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+	
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+
+	<!-- jquerry 3 'not everything works with this one'
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>	-->
+	<!-- jquerry 2 -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>	
+	<!-- jquerry 1 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 	-->
+
+	<!-- google font -->
+	 <!--<link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">-->
+	 <link href="https://fonts.googleapis.com/css?family=Yantramanav" rel="stylesheet">
+	
+	<!-- links to files -->
+	<script src="./code.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="middle.css">
+	<link rel="stylesheet" type="text/css" href="bottom.css">
+</head>
+	<body>
+		<div class="navBackground">
+		<div class="navContainer">
+			<ul class="navList">
+				<!--left side navigation bar-->
+				<li class="navItem">	<button type="button" class="btn btn-secondary" id="efi"></button>	</li>
+				<li class="navItem">	<button type="button" class="btn btn-secondary" id="avatar"></button> </li>
+				<li class="navItem2">
+					<div class="nameBlock">
+						<span class="jan">Jan Kowalski</span>
+					</div>
+					<div class="mailCogContainter">
+							<div class="mailCog">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+							<i class="fa fa-cog" aria-hidden="true"></i>
+						<!--<i class="fa fa-circle" aria-hidden="true"></i>-->
+							</div>
+					</div>
+				</li>
+				<!--middle part navigation bar-->
+				<li class="navItem3">
+					<div class="blackNav">
+						<div id="iconMain1">
+							<i class="fa fa-home" aria-hidden="true"></i> 
+							<div class="homeCaption"> <h5>HOME</h5> </div>
+							<div style="display: none" id="circle1"></div>
+						</div>
+						<div id="iconMain2">
+							<i class="fa fa-area-chart" aria-hidden="true"></i> 
+							<div class="analyseCaption"> <h5>ANALYSE</h5> </div>
+							<div style="display: none" id="circle2"></div> 
+						</div>
+						<div id="iconMain3">
+							<i class="fa fa-calendar-o" aria-hidden="true"></i> 
+							<div class="planCaption"> <h5>PLAN</h5> </div>
+							<div style="display: none" id="circle3"></div>
+						</div>
+						<div id="iconMain4">
+							<i class="fa fa-bars" aria-hidden="true"></i> 
+							<div class="earnCaption"> <h5>EARN</h5> </div> 
+							<div style="display: none" id="circle4"></div> 
+						</div>
+					</div>
+				</li>
+				
+
+				<!--right side navigation bar-->
+				<li class="navItem4">
+					<div class="seachIOContainer">
+						<div class="searchContainer">
+							<i class="fa fa-search" aria-hidden="true"></i>
+						</div>
+						<div class="inOutContainer">
+							<i class="fa fa-power-off" aria-hidden="true"></i>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		</div>
+<div class="app">
+
+<!-- app -->
+	<div class="secondLine">
+		<div class="financesleftContainer">
+			<!--finance caption above moeny-->
+			<div class="financeCaptionBlock">
+				<p class="financeCaption">Finance life stream</p>
+			</div>
+
+			<!--money caption blocks-->
+			<div class="moneyContainer">
+				<div class="moneyBlock">
+					<span>Balance</span> <br>
+					<span><b>7 200,34</b> PLN</span>
+				</div>
+				<div class="moneyBlock2">
+					<span>Available funds</span> <br>
+					<span><b>7 200,34 PLN</b></span>
+				</div>
+				<div class="moneyBlock3">
+					<span>Schedued payments</span> <br>
+					<span><b>2 200,34</b> PLN</span>
+				</div>
+			</div>
+		</div>
+		<!--buttons to the right of money blocks-->
+		<div class="buttonsRightContainer">
+			<div class="rightUpContainer">
+				<span class="add">Add</span>
+				<div class="bankButtonContainer">
+					<button type="button" class="btn btn-primary">BANK</button>
+				</div>
+				<div class="paymentButtonContainer">
+					<button type="button" class="btn btn-primary">PAYMENT</button>
+				</div>
+			</div>
+			<div class="rightDownContainer">
+				<span>Accounts analysis</span>
+					<label class="switch">
+						<input type="checkbox">
+						<div class="slider"></div>
+						<h5 class="offCaption">OFF</h5><h5 class="onCaption">ON</h5>
+					</label>
+			</div>
+		</div>
+	</div>
+	<!--end 2nd line-->
+	<div class="diagram">
+	</div>
+	
+<ul class="botList">
+	<li class="botListItem1">
+		<h4 class="productsCaption" >Products</h4>
+		<div id="walletBox" class="floating-box">
+			<div class="leftBoxBottom">
+				<i class="fa fa-inbox" aria-hidden="true"></i>
+			</div>
+			<div class="rightBoxBottom">
+				<span>Wallets [3]</span> <br>
+				<span>500,00 PLN</span>
+			</div>
+		</div>
+		<div id="depositsBox" class="floating-box">
+			<div class="leftBoxBottom">
+				<i class="fa fa-money" aria-hidden="true"></i>
+			</div>
+			<div class="rightBoxBottom">
+				<span>Deposits [2]</span> <br>
+				<span>10 000,00 PLN</span>
+			</div>	
+		</div>
+		<div id="accountsBox" class="floating-box">
+			<div class="leftBoxBottom">
+				<i class="fa fa-university" aria-hidden="true"></i>	
+			</div>
+			<div class="rightBoxBottom">
+				<span>Accounts</span> <br>
+				<span>7 200,00 PLN</span>
+			</div>
+		</div>
+		<div id="fundsBox" class="floating-box">
+			<div class="leftBoxBottom">
+				<i class="fa fa-bar-chart" aria-hidden="true"></i>
+			</div>
+			<div class="rightBoxBottom">
+				<span>Funds [3]</span> <br>
+				<span>7 000,00 PLN</span>
+			</div>
+		</div>
+		<div id="bankLoansBox" class="floating-box">
+			<div class="leftBoxBottom">
+				<i class="fa fa-hand-o-right" aria-hidden="true"></i>
+			</div>
+			<div class="rightBoxBottom">
+				<span>Bank loans</span> <br>
+				<span>-127 000,00 PLN</span>
+			</div>		
+		</div>
+	</li>
+	<!--list in the bottom-right corner-->
+	<li class="botListItem2">
+		<h4>History</h4>
+		<div class="floating-box2">
+			<!--scrolling list-->
+				<div data-spy="scroll" data-target="#navbar-example2" data-offset="0" class="scrollspy-example">
+				<!--table-->
+					<table class="table">
+					<tbody>
+						<!--row 1-->
+						<tr>
+							<div class="row1Date">
+								<th class="row1" scope="row">29.06</th>
+							</div>
+							<td>
+								<div>
+								<span>Gas station Shell, Warsaw Woloska street...</span> <br>
+								<span>Gas</span> <i class="fa fa-angle-down" aria-hidden="true"></i>
+								</div>
+							</td>
+							<td><b>-100,00 </b>PLN</td>
+						</tr>
+						<!--row 2-->
+						<tr>
+							<div class="row1Date">
+								<th class="row1" scope="row">28.06</th>
+							</div>
+							<td>
+								<div>
+								<span>ATM withdrawal Cracow Bracka street...</span> <br>
+								<span>Cash</span> <button type="button" class="btnOK btn-secondary">OK</button>
+								</div>
+							</td>
+							<td><b>-50,00 </b>PLN</td>
+						</tr>
+						<!--row 3-->
+						<tr>
+							<div class="row1Date">
+								<th class="row1" scope="row">19.06</th>
+							</div>
+							<td>
+								<div>
+								<span>Invoice 548/12/1234</span> <br>
+								<span>Salary</span> <i class="fa fa-angle-down" aria-hidden="true"></i>
+								</div>
+							</td>
+							<td><b> <span class="greenNum"> 5 550,00 </span></b>PLN</td>
+						</tr>
+						<!--row 4-->
+						<tr>
+							<div class="row1Date">
+								<th class="row1" scope="row">16.06</th>
+							</div>
+							<td>
+								<div>
+								<span>CoffeeHeaven</span> <br>
+								<span>Food</span> <i class="fa fa-angle-down" aria-hidden="true"></i>
+								</div>
+							</td>
+							<td><b>-19,00 </b>PLN</td>
+						</tr>
+						<!--row 5-->
+						<tr>
+							<div class="row1Date">
+								<th class="row1" scope="row">16.06</th>
+							</div>
+							<td>
+								<div>
+								<span>Cinema City Bemowo</span> <br>
+								<span>Fun</span> <i class="fa fa-angle-down" aria-hidden="true"></i>
+								</div>
+							</td>
+							<td><b>-40,70 </b>PLN</td>
+						</tr>
+						<!--row 6-->
+						<tr>
+							<div class="row1Date">
+								<th class="row1" scope="row">14.06</th>
+							</div>
+							<td>
+								<div>
+								<span>CoffeeHeaven</span> <br>
+								<span>Food</span> <i class="fa fa-angle-down" aria-hidden="true"></i>
+								</div>
+							</td>
+							<td><b>-24,00 </b>PLN</td>
+						</tr>
+						<!--row 7-->
+						<tr>
+							<div class="row1Date">
+								<th class="row1" scope="row">14.06</th>
+							</div>
+							<td>
+								<div>
+								<span>Cinema City Bemowo</span> <br>
+								<span>Fun</span> <i class="fa fa-angle-down" aria-hidden="true"></i>
+								</div>
+							</td>
+							<td><b>-40,70 </b>PLN</td>
+						</tr>
+					</tbody>
+					</table>
+				</div>
+		</div>
+	</li>
+</ul>
+	<!-- end app-->
+		</div>
+	</body>
+</html>

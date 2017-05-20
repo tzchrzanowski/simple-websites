@@ -1,0 +1,267 @@
+
+body{
+  	background-image:url("https://s18.postimg.org/r423iicnb/grayback.jpg");
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	/*font-family: 'Heebo', sans-serif;*/
+	font-family: 'Yantramanav', sans-serif;
+}
+
+.app{
+  /*margin-left:100px;
+  margin-right:100px;*/
+
+  margin-left:auto;
+  margin-right:auto;
+  max-width:765px;
+}
+
+.indexItems{
+  background-color:#13bdd2;
+  height: 90px;
+}
+
+#efi{
+  background-color: #13bdd2 !important;
+  background-image:url("https://s18.postimg.org/f3tfloiih/efi3.jpg");
+  background-size:cover;
+  /*border-style: solid;*/
+  border-color: #ffffff;
+  border-width: .1 px;
+  font-size: 38px;
+  /*margin-top:15px;
+  margin-bottom: 15px;*/
+  margin:15px 0px 15px 0px;
+  width: 60px;
+  height: 60px;
+
+
+
+}
+.btn-secondary{
+  background-color: #13bdd2 !important;
+  /*border-style: solid;*/
+  border-color: #ffffff;
+  border-width: .1 px;
+}
+#avatar{
+  width: 60px;
+  height: 60px;
+  background-image:url("https://s4.postimg.org/4oh6wbqel/avatar.jpg");
+  background-size:cover;
+}
+/*mail and cog icons, top navigation bar*/
+.mailCogContainter{
+	position: relative;
+}
+.mailCog{
+	position: absolute;
+    bottom: -20px;
+}
+.fa-cog{
+	margin-left:8px;
+}
+.numberIndicator{
+	position: relative;
+	color:black;
+	margin-left:-7px;
+	margin-bottom:-10px;
+	
+
+}
+/*name next to the avatar*/
+.nameBlock{
+	position: relative;
+}
+.jan{
+	position: absolute;
+    bottom: 10px;
+	font-size:16px;
+}
+
+
+.navList{
+	margin:0;
+	padding: 0;
+	/*margin-left:auto;
+  	margin-right:auto;*/
+  	max-width:765px;
+    list-style-type:none;
+    background-color: #13bdd2;
+}
+.navContainer{
+	margin-left:auto;
+  	margin-right:auto;
+  	max-width:765px;
+    background-color: #13bdd2;
+}
+.navBackground{
+	background-color: #13bdd2;
+}
+
+.navItem{
+    display:inline-block;
+    width:60px;
+}
+.navItem2{
+    display:inline-block;
+    width:100px;
+    margin-left:20px;
+    color:white;
+    max-height:60px;
+}
+/*black navigation*/
+.navItem3{
+	position:relative;
+	font-size: 30px;
+    display:inline-block;
+    width:300px;
+    margin-left:70px;
+    color:white;
+    max-height:60px;
+}
+.blackNav{
+    height:102px;
+    /*margin-top:10px;*/
+}
+.homeCaption{
+    margin-left:17px;
+    margin-top:-10px;
+    position:absolute;
+}
+.analyseCaption{
+    margin-left:10px;
+    margin-top:-10px;
+    position:absolute;
+}
+.planCaption{
+    margin-left:21px;
+    margin-top:-10px;
+    position:absolute;
+}
+.earnCaption{
+    margin-left:20px;
+    margin-top:-10px;
+    position:absolute;
+}
+
+/*home*/
+#iconMain1{
+	position:absolute;
+    display:inline-block;
+    width:70px;
+    height:102px;
+    margin-top:0px;
+}
+.fa-home{
+    margin-top:35px;
+    margin-left:23px;
+}
+/*chart*/
+#iconMain2{
+	position:absolute;
+    display:inline-block;
+    width:70px;
+    height:102px;
+    margin-top:0px;
+    margin-left:70px;
+}
+.fa-area-chart{
+    margin-top:35px;
+    margin-left:20px;
+}
+/*notepad*/
+#iconMain3{
+	position:absolute;
+	margin-left:140px;
+    display:inline-block;
+    width:70px;
+    height:102px;
+    margin-top:0px;
+}
+.fa-calendar-o{
+    margin-top:35px;
+    margin-left:23px;
+}
+/*earn*/
+#iconMain4{
+	position:absolute;
+	margin-left:210px;
+    display:inline-block;
+    width:70px;
+    height:102px;
+    margin-top:0px;
+}
+.fa-bars{
+    margin-top:35px;
+    margin-left:23px;
+}
+/*right buttons in out*/
+.navItem4{
+	display:inline-block;
+    width:100px;
+    margin-left:20px;
+    color:white;
+    max-height:60px;
+}
+.seachIOContainer{
+    position:relative;
+    float:right;
+    font-size:22px;
+    top:17px;
+    right:-18px;
+}
+.searchContainer{
+    display:inline-block;
+    margin-right:10px;
+    border-right: 1px solid;
+    padding-right:15px;
+    height:40px;    
+}
+.fa-search{
+    padding-top:10px;
+}
+.inOutContainer{
+    display:inline-block;
+    color:#E21A61;
+}
+
+/*----------------------------*/
+    /*circles*/
+#circle1{
+    position:absolute;
+    border-radius: 50%;
+	width: 15px;
+	height: 15px; 
+    background-color:black;
+    margin-top:25px;
+    margin-left:28px;
+}
+#circle2{
+    position:absolute;
+    border-radius: 50%;
+	width: 15px;
+	height: 15px; 
+    background-color:black;
+    margin-top:25px;
+    margin-left:28px;
+}
+#circle3{
+    position:absolute;
+    border-radius: 50%;
+	width: 15px;
+	height: 15px; 
+    background-color:black;
+    margin-top:25px;
+    margin-left:28px;
+}
+#circle4{
+    position:absolute;
+    border-radius: 50%;
+	width: 15px;
+	height: 15px; 
+    background-color:black;
+    margin-top:25px;
+    margin-left:28px;
+}

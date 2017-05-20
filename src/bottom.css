@@ -1,0 +1,99 @@
+
+.floating-box {
+    float: left;
+  width:180px;
+  height:80px;
+  margin:5px;
+  background-color:white; 
+}
+
+.floating-box2 {
+  float: right;
+  width:375px;
+  height:80px;
+  margin: 1px;
+  background-color:white; 
+  margin-left:auto;
+  margin-right:auto;
+  height:280px;
+  font-size:12px;
+}
+
+.botList{
+	position:relative;
+    margin-left: -40px;
+    max-width:800px;;
+    list-style-type:none;
+}
+/*left side*/
+.botListItem1{
+    position:relative;
+    max-width:380px;
+	float:left;
+}
+
+.leftBoxBottom{
+    font-size:45px;
+    float:left;
+    color: #B2B2B2;
+    margin-top:8px;
+    margin-left:17px;
+}
+.rightBoxBottom{
+    float: left;
+    display:inline-block;
+    font-size:14px;
+    margin-top:18px;
+    margin-left:8px;
+}
+/*right side - seek bar table*/
+.botListItem2{
+    position:relative;
+	float: right;
+    max-width:380px;
+    /*display:inline-block;*/
+}
+
+
+.scrollspy-example {
+    position: relative;
+    height: 280px;
+    margin-top: .5rem;
+    overflow: auto;
+}
+.fa-angle-down{
+    position:absolute;
+    padding-top:-1px;
+    padding-left:4px;
+    font-size:20px;
+    color:#13bdd2;
+}
+.btn-secondary{
+    width:25px;
+    height:22px;
+    background-color:#13bdd2;
+    color:white;
+
+}
+.captionOK{
+    margin-bottom:10px;
+}
+
+.productsCaption{
+    margin-left:4px;
+}
+
+.btnOK{
+    display: inline-block;
+    padding: 1px 0px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.greenNum{
+    color:green;
+}
