@@ -6,3 +6,4 @@
 ##### Wikipedia viewer |  https://github.com/tzchrzanowski/web-pages/tree/wikipedia-viewer
 ##### Random quote |  https://github.com/tzchrzanowski/web-pages/tree/random-quote
 ##### Stopwatch |  https://github.com/tzchrzanowski/web-pages/tree/stopwatch
+##### Products list |  https://github.com/tzchrzanowski/web-pages/tree/products-list
