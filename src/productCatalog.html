@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<!-- external links -->
+
+	<!-- font awesome ! -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+	
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+
+	<!-- jquerry 3 'not everything works with this one'
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>	-->
+	<!-- jquerry 2 -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>	
+	<!-- jquerry 1 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 	-->
+
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto+Condensed" rel="stylesheet">
+	
+	<!-- links to files -->
+
+	<script src="./library.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+	<body>
+        <div>
+            <h3>Search Product by Id</h3>
+            <input id="input">
+            <button id="inputButton" >Search Product</button>
+        </div>
+        <div>
+            <h3>Search Product by Type</h3>
+            <input id="inputType">
+            <button id="inputSearchType" >Search Product</button>
+        </div>
+        <div>
+            <h3>Search Product by Price</h3>
+            <input id="inputPrice">
+            <button id="inputSearchPrice" >Search Product</button>
+        </div>
+        <div class="products">
+            <h3>Examined Product</h3>
+            <p id="productText">Product Id: <br>Price: <br>Type: </p>
+            <h3>List of Similar Products</h3>
+            <table id="similarTable" width="300px" border="1" >
+            <tr>
+                <th>ProductId</th>
+                <th>Type</th> 
+                <th>Price</th>
+                <th>Examine</th>
+            </tr>
+            </table>
+        </div>
+        <div>
+        <h3>List of All Products</h3>
+        <table id="allTable" width="300px" border="1" >
+            <tr>
+                <th>ProductId</th>
+                <th>Type</th> 
+                <th>Price</th>
+                <th>Examine</th>
+            </tr>
+        </table>
+        </div>
+
+
+    <script src="productCatalog.js"></script> 
+	</body>
+</html>
