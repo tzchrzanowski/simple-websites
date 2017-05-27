@@ -1,0 +1,59 @@
+
+body{
+  text-align: center;
+  /*
+  font-family: 'Roboto Condensed', sans-serif;	
+  */
+  font-family: 'Press Start 2P', cursive;
+
+  background-image:url("https://pbs.twimg.com/media/DA0EDYgXUAE0Pmi.jpg");
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+#app{
+	background: white;
+}
+
+.content{
+  /*-webkit-text-fill-color: white;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 0.25px;*/
+  /*background-color : rgba(66,66,66,0.4);*/
+  background-color : rgba(255,255,255,0.4);
+  display: block;
+  max-width: 470px;
+  margin: 48px auto;
+  min-height: 200px;
+  padding: 24px;
+  border-radius: 4px;
+}
+
+#filmsText, #loading{
+  margin-top:15px;
+}
+
+#wideLogo{
+  display:initial;
+}
+
+#mobileLogo{
+   display:none;
+}
+
+@media screen and (max-width: 700px) {
+  .content{
+    max-width:90%;
+  }
+  #input{
+    max-width:80%;
+  }
+  #wideLogo{
+    visibility:collapse;
+    display:none;
+  }
+  #mobileLogo{
+    display:initial;
+  }
+}
