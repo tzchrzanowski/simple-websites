@@ -36,12 +36,84 @@
 				Star Wars
 				<i id="wideLogo" class="fa fa-empire" aria-hidden="true"></i>	
 			</h2>
-			<h4> Enter Film Number (1-7) </h4>
-			<input id = "input">
-			<button id = "button">Search</button>
+			<h4>Select two Starships from the dropdown lists to compare</h4>
+			<!--dropdown-->
+			<div class="form-group">
+				<label for="exampleSelect1">1st starship</label>
+				<select class="form-control" id="exampleSelect1">
+				<option value="2">CR90 Corvette</option>
+				<option value="75">V-wing</option>
+				<option value="74">Belbullab-22 Starfighter</option>
+				<option value="65">Jedi Interceptor</option>
+				<option value="3">Star Destroyer</option>
+				<option value="59">Trade Fedaration Cruiser</option>
+				<option value="58">Solar Sailer</option>
+				<option value="63">Republic Attack Cruiser</option>
+				<option value="28">A-wing</option>
+				<option value="29">B-wing</option>
+				<option value="39">Naboo Fighter</option>
+				<option value="10">Millenium Falcon</option>
+				</select>
+			</div>
+			<!--dropdown2-->
+			<div class="form-group">
+				<label for="exampleSelect1">2nd starship</label>
+				<select class="form-control" id="exampleSelect2">
+				<option value="2">CR90 Corvette</option>
+				<option value="75">V-wing</option>
+				<option value="74">Belbullab-22 Starfighter</option>
+				<option value="65">Jedi Interceptor</option>
+				<option value="3">Star Destroyer</option>
+				<option value="59">Trade Fedaration Cruiser</option>
+				<option value="58">Solar Sailer</option>
+				<option value="63">Republic Attack Cruiser</option>
+				<option value="28">A-wing</option>
+				<option value="29">B-wing</option>
+				<option value="39">Naboo Fighter</option>
+				<option value="10">Millenium Falcon</option>
+				</select>
+			</div>
+			<!--end dropdown-->
 			<p id="loading" style="visibility:hidden">Loading...</p>
-			<p id="filmsText">Film:<p>
-			<p id="peopleText">Characters:<p>
+			<!--table-->
+			<table class="table table-bordered">
+			<thead>
+				<tr>
+				<th></th>
+				<th>Starship 1</th>
+				<th>Starship 2</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">Name</th>
+					<td id="name1"></td>
+					<td id="name2"></td>
+				</tr>
+				<tr>
+					<th scope="row">Cost</th>
+					<td class="tab1a" id="cost1"></td>
+					<td class="tab1b" id="cost2"></td>
+				</tr>
+				<tr>
+					<th scope="row">Speed</th>
+					<td class="tab2a" id="speed1"></td>
+					<td class="tab2b" id="speed2"></td>
+				</tr>
+				<tr>
+					<th scope="row">Cargo Size</th>
+					<td class="tab3a" id="cargoSize1"></td>
+					<td class="tab3b" id="cargoSize2"></td>
+				</tr>
+				<tr>
+					<th scope="row">Passengers</th>
+					<td class="tab4a" id="passengers1"></td>
+					<td class="tab4b" id="passengers2"></td>
+				</tr>
+			</tbody>
+			</table>
+			<!--end of table-->
+			<button id="button" type="button" class="btn btn-secondary">Compare</button>
 		</div>
 	<script src="./code.js"></script>
 	</body>

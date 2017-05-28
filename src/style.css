@@ -6,7 +6,7 @@ body{
   */
   font-family: 'Press Start 2P', cursive;
 
-  background-image:url("https://pbs.twimg.com/media/DA0EDYgXUAE0Pmi.jpg");
+  background-image:url("https://pbs.twimg.com/media/DA0EF1LXsAA-BUr.jpg");
 	background-repeat: no-repeat;
 	background-attachment:fixed;
 	background-size:cover;
@@ -23,17 +23,12 @@ body{
   /*background-color : rgba(66,66,66,0.4);*/
   background-color : rgba(255,255,255,0.4);
   display: block;
-  max-width: 470px;
+  max-width: 700px;
   margin: 48px auto;
   min-height: 200px;
   padding: 24px;
   border-radius: 4px;
 }
-
-#filmsText, #loading{
-  margin-top:15px;
-}
-
 #wideLogo{
   display:initial;
 }
@@ -41,15 +36,15 @@ body{
 #mobileLogo{
    display:none;
 }
+.table{
+  text-align: center;
+}
 
 @media screen and (max-width: 700px) {
   .content{
     max-width:90%;
   }
-  #input{
-    max-width:80%;
-  }
-  #wideLogo{
+   #wideLogo{
     visibility:collapse;
     display:none;
   }
@@ -57,3 +52,4 @@ body{
     display:initial;
   }
 }
+
