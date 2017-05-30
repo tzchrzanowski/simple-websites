@@ -35,7 +35,7 @@ $(document).ready(function (){
         $(".tab4b").css( "background-color", "rgba(255,255,255,0");
 
 		//fetch the ship 1
-		var shipResponse1 = yield fetch("http://swapi.co/api/starships/" + document.getElementById("exampleSelect1").value);
+		var shipResponse1 = yield fetch("http://swapi.co/api/starships/" + document.getElementById("exampleSelect1").value) + "/";
 		var ship1json = yield shipResponse1.json();
 		//display the data
         var pas1 = ship1json.passengers;
@@ -49,7 +49,7 @@ $(document).ready(function (){
         document.getElementById("speed1").innerHTML = speed1;
         document.getElementById("cargoSize1").innerHTML = cargo1;
 		//fetch the ship 2
-		var shipResponse2 = yield fetch("http://swapi.co/api/starships/" + document.getElementById("exampleSelect2").value);
+		var shipResponse2 = yield fetch("http://swapi.co/api/starships/" + document.getElementById("exampleSelect2").value) + "/";
 		var ship2json = yield shipResponse2.json();
 		//display the data
         var pas2 = ship2json.passengers;
